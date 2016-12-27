@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addDetails_drawer"
+            android:title="Add" >
+
+            <menu>
+                <item
+                    android:id="@+id/add_contact_submenu"
+                    android:icon="@drawable/ic_action_add_submenu"
+                    android:title="   Add Record" />
+                <item
+                    android:id="@+id/add_record_submenu"
+                    android:title="   Add Contact" />
+                <item
+                    android:id="@+id/add_opp_submenu"
+                    android:title="   Add Opp/Quotes" />
+                <item
+                    android:id="@+id/add_note_submenu"
+                    android:title="   Add Note" />
+                <item
+                    android:id="@+id/add_callback_submenu"
+                    android:title="   Add Callback Task" />
+                <item
+                    android:id="@+id/add_case_submenu"
+                    android:title="   Add Case" />
+            </menu>
+
+        </item>
+        <item
+            android:id="@+id/callback_drawer"
+            android:icon="@drawable/ic_action_callback"
+            android:title="Callback Tasks" />
+        <item
+            android:id="@+id/contacts_drawer"
+            android:icon="@drawable/contact"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/account_drawer"
+            android:icon="@drawable/account"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/my_shorcuts_drawer"
+            android:icon="@drawable/myshortcut"
+            android:title="My Shortcuts" />
+        <item
+            android:id="@+id/recent_items_drawer"
+            android:icon="@drawable/recent_items"
+            android:title="Recent Items" />
+        <item
+            android:id="@+id/dashboard_drawer"
+            android:icon="@drawable/dashbord"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/calendar_drawer"
+
+            android:title="Calendar" />
+        <item
+            android:id="@+id/opportunities_drawer"
+            android:icon="@drawable/opportuniti"
+            android:title="Opportunities" />
+        <item
+            android:id="@+id/cases_drawer"
+            android:icon="@drawable/cases"
+            android:title="Cases" />
+        <item
+            android:id="@+id/searches_drawer"
+            android:icon="@drawable/search"
+            android:title="Searches" />
+        <item
+            android:id="@+id/library_drawer"
+            android:icon="@drawable/library"
+            android:title="Library" />
+        <item
+            android:id="@+id/logout_drawer"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

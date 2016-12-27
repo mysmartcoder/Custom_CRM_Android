@@ -1,0 +1,143 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/Scroll_View"
+    android:background="#0051A1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Login_Activity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/login_parent"
+        android:background="#0051A1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context=".Login_Activity"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:src="@drawable/logo"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"/>
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+        <TextView
+            android:text="Login to LeadMaster"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/usernameLoginEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_gravity="center"
+            android:hint="Username"/>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/password_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/passwordLoginEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:background="@drawable/rounded_edittext"
+                android:layout_gravity="center"
+                android:hint="Password">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/pwd_visible"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/passwordLoginEdit"
+                android:layout_alignBottom="@+id/passwordLoginEdit"
+                android:layout_alignRight="@+id/passwordLoginEdit"
+                android:src="@drawable/visible" />
+
+            <!--<Button-->
+                <!--android:id="@+id/pwd_visible"-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignTop="@+id/passwordLoginEdit"-->
+                <!--android:layout_alignBottom="@+id/passwordLoginEdit"-->
+                <!--android:layout_alignRight="@+id/passwordLoginEdit"-->
+                <!--android:text="@string/fa_visible"-->
+                <!--android:background="#F5F5F5"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#616161"/>-->
+
+        </RelativeLayout>
+
+        <!--<EditText-->
+        <!--android:id="@+id/passwordLoginEdit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@drawable/rounded_edittext"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:hint="Password"/>-->
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="25dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button"
+            android:layout_gravity="center"
+            android:text="Login"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:gravity="center|bottom"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Copyright &#169; 2016 LeadMaster\nVersion 3.0"/>
+
+        <!--</LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+</ScrollView>

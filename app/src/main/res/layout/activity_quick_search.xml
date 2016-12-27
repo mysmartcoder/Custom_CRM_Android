@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qs_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.leadmaster.CallbackTask_Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/qs_toolbar"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#0051A1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Quick Search"
+            android:layout_gravity="center"
+            android:id="@+id/account_toolbar_title"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/quick_search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CFD8DC"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dip"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Keywords for Quick search"
+            />
+        <ImageButton
+            android:id="@+id/search_quick_btn"
+            android:layout_marginLeft="-60dp"
+            style="?android:buttonBarButtonStyle"
+            android:paddingBottom="5dp"
+            android:src="@drawable/ic_action_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/quick_search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:focusable="false"
+        android:layout_weight="1"/>
+
+</LinearLayout>

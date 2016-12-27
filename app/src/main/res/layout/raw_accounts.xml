@@ -1,0 +1,279 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:id="@+id/AccAdp_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/Accounts_record_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/Accounts_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/Accounts_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entered "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/acc_tventered"
+            android:layout_weight="0.6"
+            />
+
+        <TextView
+            android:id="@+id/Accounts_entered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/acc_tvcompany"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:autoLink="web"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lead Status "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/acc_tvleadstatus"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_leadStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lead Source  "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/acc_tvleadsource"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_leadSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acc_tvacctMgr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acct Mgr "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_acc_mgr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acc_tvcamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campaign "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_campaign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acc_tvphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Accounts_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/icons_container_Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/select_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#4CAF50"
+            android:text="@string/fa_icon_select" />
+
+
+        <Button
+            android:id="@+id/assign_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#607D8B"
+            android:text="@string/fa_assign"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/call_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_call"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/delete_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#424242"
+            android:text="@string/fa_icon_delete"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/map_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_map"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/email_btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#0051A1"
+            android:text="@string/fa_icon_mail"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

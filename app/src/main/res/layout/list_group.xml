@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_group_parent"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/drawer_header"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#0051A1">
+
+        <ImageView
+            android:id="@+id/headerIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Hello"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:layout_weight="0.7"/>
+        <TextView
+            android:id="@+id/lblListHeader_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:clickable="true"
+            android:textColor="#fff"
+            android:layout_weight="0.7"/>
+        <TextView
+            android:id="@+id/countDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="right"
+            />
+        <ImageView
+            android:id="@+id/updownIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/menu_divider"
+        android:background="@android:color/white"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="list_selection">#E0E0E0</color>
+    <color name="default_color">#0051A1</color>
+
+    <array name="rainbow">
+        <item>#0051A1</item>
+        <item>#FF7043</item>
+        <item>#FFA726</item>
+        <item>#D4E157</item>
+        <item>#66BB6A</item>
+        <item>#5C6BC0</item>
+        <item>#ef5350</item>
+        <item>#EC407A</item>
+        <item>#AB47BC</item>
+    </array>
+
+    <color name="col1">#0051A1</color>
+    <color name="col2">#FF7043</color>
+    <color name="col3">#D4E157</color>
+    <color name="col4">#5C6BC0</color>
+    <color name="col5">#ef5350</color>
+    <color name="col6">#AB47BC</color>
+
+    <color name="s_col1">#023B74</color>
+    <color name="s_col2">#C85632</color>
+    <color name="s_col3">#B7C24C</color>
+    <color name="s_col4">#495495</color>
+    <color name="s_col5">#B6413F</color>
+    <color name="s_col6">#893996</color>
+
+
+    <color name="greyed_out">#c7c7c7</color>
+    <color name="today">#CDDC39</color>
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+    <color name="white">#ffffff</color>
+
+    <!--Custom Calendar-->
+    <color name="day_disabled_background_color">@color/white</color>
+    <color name="day_disabled_text_color">@color/greyed_out</color>
+    <color name="selected_day_background">#0051A1</color>
+    <color name="current_day_of_month">#0051A1</color>
+
+
+    <color name="LM_Color">#0051A1</color>
+
+
+</resources>

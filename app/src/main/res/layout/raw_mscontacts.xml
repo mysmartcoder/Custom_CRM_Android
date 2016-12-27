@@ -1,0 +1,264 @@
+<LinearLayout
+    android:id="@+id/msconAdp_parent"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/mscont_record_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/mscont_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/mscont_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entered : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/mscon_tventered"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_entered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/mscon_tvcontact"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/mscon_tvaccount"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lead Status : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/mscon_tvleadstatus"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_lead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mscon_tvcampaign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campaign : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_camp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mscon_tvacctmgr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acct Mgr : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_act_mgr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mscon_tvphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/mscont_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icons_container_mscontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/select_btn_MSCont"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#4CAF50"
+            android:text="@string/fa_icon_select" />
+
+        <Button
+            android:id="@+id/assign_btn_MSCont"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#607D8B"
+            android:text="@string/fa_assign" />
+
+
+        <Button
+            android:id="@+id/call_btn_MSCont"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_call"/>
+
+        <Button
+            android:id="@+id/delete_btn_MSCont"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#424242"
+            android:text="@string/fa_icon_delete"/>
+
+        <Button
+            android:id="@+id/map_btn_MSCont"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_map" />
+    </LinearLayout>
+
+</LinearLayout>

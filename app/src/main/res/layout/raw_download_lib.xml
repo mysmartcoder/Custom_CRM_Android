@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/libAdp_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:id="@+id/icons_container_DownLib">
+
+        <TextView
+            android:id="@+id/download_lib"
+            android:textColor="#0051A1"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:singleLine="false"
+            android:clickable="true"
+            android:text="Hello"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="4"
+            />
+        <!--android:autoLink="web"-->
+
+        <Button
+            android:id="@+id/email_btn_DownLib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#9E9E9E"
+            android:text="@string/fa_email"
+            android:layout_weight="1"
+            />
+        <!--android:text="@string/fa_icon_map"-->
+    </LinearLayout>
+</LinearLayout>

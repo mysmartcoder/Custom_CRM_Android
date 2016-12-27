@@ -1,0 +1,165 @@
+<LinearLayout
+    android:id="@+id/quoteAdp_parent"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quote Name "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/q_name"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Quote_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/q_company"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Quote_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/q_first"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Quote_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/q_last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Quote_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quote Total "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/q_total"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Quote_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icons_container_Quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/select_btn_Quote"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#4CAF50"
+            android:text="@string/fa_icon_select" />
+
+
+
+        <Button
+            android:id="@+id/delete_btn_Quote"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#424242"
+            android:text="@string/fa_icon_delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>

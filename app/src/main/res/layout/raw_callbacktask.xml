@@ -1,0 +1,199 @@
+<LinearLayout
+    android:id="@+id/callAdp_parent"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cb_tvacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Callback_companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cb_tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CallBack Name :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Callback_eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E88E5"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cb_tvstarttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Time :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Callback_startTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cb_tvendtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Time "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <TextView
+            android:id="@+id/Callback_endTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cb_tvstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Status :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="0.6"/>
+
+        <Spinner
+            android:id="@+id/Callback_eventStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="0.4"
+            android:entries="@array/callbackEventStatus"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icons_container_callback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/select_btn_Callback"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#4CAF50"
+            android:text="@string/fa_icon_select" />
+
+        <Button
+            android:id="@+id/add_btn_Callback"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/fa_plus"
+            android:textSize="30sp"
+            android:textColor="#0051A1"
+            />
+
+        <Button
+            android:id="@+id/edit_btn_Callback"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_edit"/>
+
+
+        <Button
+            android:id="@+id/calendar_btn_Callback"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:text="@string/fa_calendar" />
+
+        <Button
+            android:id="@+id/delete_btn_Callback"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="30sp"
+            android:textColor="#424242"
+            android:text="@string/fa_icon_delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>

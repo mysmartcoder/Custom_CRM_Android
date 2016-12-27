@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mys_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.leadmaster.CallbackTask_Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/shortcut_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#0051A1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:id="@+id/myshortcut_toolbar_title"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <!--<EditText-->
+        <!--android:id="@+id/search_myshortcut"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:backgroundTint="#CFD8DC"-->
+        <!--android:drawableRight="@drawable/ic_action_search"-->
+        <!--android:background="@drawable/rounded_edittext"-->
+        <!--android:padding="5dip"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:hint="Search"-->
+        <!--/>-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/myShortcut_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:divider="@android:color/darker_gray"-->
+        <!--android:dividerHeight="1dp"-->
+        <!--/>-->
+    <ExpandableListView
+        android:id="@+id/myShortcut_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:layout_marginTop="10dp"
+        android:divider="@android:color/darker_gray"
+        android:focusable="false"
+        android:dividerHeight="0dp"
+        android:groupIndicator="@null"
+        />
+
+</LinearLayout>

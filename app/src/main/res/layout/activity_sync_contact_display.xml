@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.leadmaster.SyncContactDisplayActivity">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.leadmaster.SyncContactDisplayActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/syncContactDiaplay_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#0051A1"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                >
+                <LinearLayout
+                    android:id="@+id/syncContactDiaplayLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:orientation="horizontal"
+                    android:weightSum="14">
+
+                    <TextView
+                        android:id="@+id/backBtn_syncContactDiaplay"
+                        android:layout_width="0dp"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center|left"
+                        android:clickable="true"
+                        android:background="@android:color/transparent"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:text="@string/fa_back"
+                        android:layout_weight="2"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="12"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/logo"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginBottom="?attr/actionBarSize">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/display_contact_parent"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/syncContactDiaplay_firstname"
+                        android:text="ABC"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:id="@+id/syncContactDiaplay_lastname"
+                        android:text="XYZ"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="Phone : "
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:gravity="right"/>
+
+                        <TextView
+                            android:id="@+id/syncContactDiaplay_phone"
+                            android:text="123456789"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="Phone :"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:id="@+id/syncContactDiaplay_phone2"
+                            android:text="123456789"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="Fax :"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:id="@+id/syncContactDiaplay_fax"
+                            android:text="123456789"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="Email :"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:id="@+id/syncContactDiaplay_email"
+                            android:text="abc@gmail.com"
+                            android:textSize="18sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/edit_contact_parent"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Name">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_firstname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Last Name">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_lastname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_phone2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Fax">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_fax"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email">
+
+                        <EditText
+                            android:id="@+id/syncContactEdit_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/syncContact_sync_footer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_compose_back"
+            android:layout_gravity="bottom"
+            android:weightSum="2"
+            android:layout_weight="0">
+
+            <Button
+                android:id="@+id/syncContactDiaplay_edit_footer_button"
+                android:layout_gravity="center"
+                android:text="Edit"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <Button
+                android:id="@+id/syncContactDiaplay_sync_footer_button"
+                android:layout_gravity="center"
+                android:text="Sync"
+                android:textSize="20sp"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/syncContact_save_footer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_compose_back"
+            android:layout_gravity="bottom"
+            android:weightSum="2"
+            android:visibility="gone"
+            android:layout_weight="0">
+
+            <Button
+                android:id="@+id/syncContactDiaplay_cancel_footer_button"
+                android:layout_gravity="center"
+                android:text="Cancel"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <Button
+                android:id="@+id/syncContactDiaplay_save_footer_button"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:textSize="20sp"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

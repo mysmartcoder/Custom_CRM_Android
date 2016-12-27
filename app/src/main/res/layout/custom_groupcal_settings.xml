@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:text="Select Calendar View : "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/groupCal_view_spinner"
+        android:entries="@array/groupCalSettingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:text="Select User : "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/groupCal_user"
+        android:entries="@array/groupUserSettingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/select_session_display"
+        android:text="Select Session : "
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/groupCal_session"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+        <!--android:textColor="#212121"-->
+        <Button
+            android:id="@+id/groupCal_setting_OK"
+            android:text="Save"
+            android:textColor="#212121"
+            android:background="@drawable/rounded_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/groupCal_setting_CLEAR"
+            android:text="Clear"
+            android:textColor="#212121"
+            android:background="@drawable/rounded_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"/>
+        <!--android:enabled="false"-->
+
+        <Button
+            android:id="@+id/groupCal_setting_Cancel"
+            android:text="Cancel"
+            android:textColor="#212121"
+            android:background="@drawable/rounded_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

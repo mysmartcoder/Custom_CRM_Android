@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">LeadMasterCRM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="staticValues_prompt">Choose an Option </string>
+
+    <string-array name="staticValues">
+        <item>Select Option:</item>
+        <item>App2 Case Owner</item>
+        <item>Case OwnerAAAA</item>
+        <item>Case Type Save Problem</item>
+        <item>CaseType-Problems</item>
+        <item>CaseType-Problems1</item>
+    </string-array>
+
+    <string-array name="groupCalSettingView">
+        <item>Select View:</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+
+    <string-array name="Testing">
+        <item>Select Option :</item>
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Test3</item>
+    </string-array>
+
+    <string-array name="Testing1">
+        <item>Select Option :</item>
+    </string-array>
+
+    <string-array name="groupUserSettingView">
+        <item>Select User:</item>
+        <item>All</item>
+        <item>Andy B9</item>
+        <item>Lance Brandon</item>
+        <item>Andy Brownell</item>
+        <item>Russ King</item>
+    </string-array>
+
+
+    <string-array name="apiList">
+        <item>https://app.leadmastercrm.com</item>
+        <item>http://dev.leadmastercrm.com</item>
+        <item>http://qa.leadmastercrm.com</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="fontstyleList">
+        <!--<item>Default</item>-->
+        <item>Default</item>
+        <item>open-sans</item>
+        <item>pt-sans</item>
+        <item>Lora-Regular</item>
+        <item>DroidSerif-Regular</item>
+
+    </string-array>
+
+    <string-array name="callbackEventStatus">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+
+    <string-array name="displayDefaultSpinner">
+        <item>Select option :</item>
+    </string-array>
+
+    <string name="spinnerPrompt">Select</string>
+
+    <!--FontAwesome-->
+    <string name="fa_icon_add">&#xf055;</string>
+
+    <string name="fa_icon_assign">&#xf0c0;</string>
+    <string name="fa_icon_select">&#xf00c;</string>
+    <string name="fa_icon_map">&#xf041;</string>
+    <string name="fa_icon_delete">&#xf1f8;</string>
+    <string name="fa_icon_call">&#xf095;</string>
+    <string name="fa_icon_mail">&#xf003;</string>
+
+    <string name="fa_calendar">&#xf073;</string>
+    <string name="fa_plus">&#xf067;</string>
+    <string name="fa_edit">&#xf044;</string>
+    <string name="fa_url">&#xf0ac;</string>
+    <string name="fa_search">&#xf002;</string>
+    <string name="fa_assign">&#xf29a;</string>
+
+    <string name="fa_settings">&#xf013;</string>
+    <string name="fa_dashboard">&#xf0e4;</string>
+    <string name="fa_account">&#xf1ec;</string>
+    <string name="fa_contact">&#xf007;</string>
+    <string name="fa_recentitems">&#xf017;</string>
+
+    <string name="fa_myshortcut">&#xf122;</string>
+    <string name="fa_callback">&#xf274;</string>
+
+    <string name="fa_home">&#xf015;</string>
+
+    <string name="fa_email">&#xf003;</string>
+
+    <string name="fa_refresh">&#xf021;</string>
+
+    <string name="fa_visible">&#xf06e;</string>
+
+    <string name="fa_back">&#xf060;</string>
+    <string name="fa_paperclip">&#xf0c6;</string>
+
+    <string name="fa_group_cal_user">&#xf2bd;</string>
+
+    <string name="fa_setting_pass">&#xf023;</string>
+    <string name="fa_setting_url">&#xf0c1;</string>
+    <string name="fa_setting_font">&#xf031;</string>
+    <string name="fa_setting_back">&#xf1fc;</string>
+    <string name="fa_setting_rate">&#xf005;</string>
+    <string name="fa_setting_share">&#xf1e0;</string>
+    <string name="fa_setting_send">&#xf1d8;</string>
+    <!--<string name="fa_setting_logout">&#xf08b;</string>-->
+    <string name="fa_setting_logout">&#xf011;</string>
+    <string name="fa_setting_contact">&#xf2bc;</string>
+
+    <string name="fa_addDrawer_thumb">&#xf087;</string>
+    <string name="fa_addDrawer_remove">&#xf00d;</string>
+
+
+    <!--<string name="fa_search">&#xf002;</string>-->
+
+    <string name="title_activity_map__search_">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--My Calender Screen-->
+
+    <string name="lbl_sun">SUN</string>
+    <string name="lbl_mon">MON</string>
+    <string name="lbl_tue">TUE</string>
+    <string name="lbl_wed">WED</string>
+    <string name="lbl_thu">THU</string>
+    <string name="lbl_fri">FRI</string>
+    <string name="lbl_sat">SAT</string>
+
+
+    <!--Calendar -->
+    <string name="lbl_1">1</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+    <string name="lbl_4">4</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_6">6</string>
+    <string name="lbl_7">7</string>
+    <string name="lbl_8">8</string>
+    <string name="lbl_9">9</string>
+    <string name="lbl_10">10</string>
+    <string name="lbl_11">11</string>
+    <string name="lbl_12">12</string>
+    <string name="lbl_13">13</string>
+    <string name="lbl_14">14</string>
+    <string name="lbl_15">15</string>
+    <string name="lbl_16">16</string>
+    <string name="lbl_17">17</string>
+    <string name="lbl_18">18</string>
+    <string name="lbl_19">19</string>
+    <string name="lbl_20">20</string>
+    <string name="lbl_21">21</string>
+    <string name="lbl_22">22</string>
+    <string name="lbl_23">23</string>
+    <string name="lbl_24">24</string>
+    <string name="lbl_25">25</string>
+    <string name="lbl_26">26</string>
+    <string name="lbl_27">27</string>
+    <string name="lbl_28">28</string>
+    <string name="lbl_29">29</string>
+    <string name="lbl_30">30</string>
+    <string name="lbl_31">31</string>
+    <string name="lbl_32">32</string>
+    <string name="lbl_33">33</string>
+    <string name="lbl_34">34</string>
+    <string name="lbl_35">35</string>
+    <string name="lbl_36">36</string>
+    <string name="lbl_37">37</string>
+    <string name="lbl_38">38</string>
+    <string name="lbl_39">39</string>
+    <string name="lbl_40">40</string>
+    <string name="lbl_41">41</string>
+    <string name="lbl_42">42</string>
+
+
+    <string name="col1">#0051A1</string>
+    <string name="col2">#FF7043</string>
+    <string name="col3">#D4E157</string>
+    <string name="col4">#5C6BC0</string>
+    <string name="col5">#ef5350</string>
+    <string name="col6">#AB47BC</string>
+
+</resources>

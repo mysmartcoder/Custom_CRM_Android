@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/Account_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.leadmaster.CallbackTask_Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:id="@+id/acc_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#0051A1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:id="@+id/account_toolbar_title"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/searchll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/account_search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CFD8DC"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dip"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            />
+        <ImageButton
+            android:id="@+id/search_account_btn"
+            android:layout_marginLeft="-60dp"
+            style="?android:buttonBarButtonStyle"
+            android:paddingBottom="5dp"
+            android:src="@drawable/ic_action_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:id="@+id/search_account_btn"-->
+            <!--android:layout_marginLeft="-60dp"-->
+            <!--style="?android:buttonBarButtonStyle"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="#000"-->
+            <!--android:text="@string/fa_search"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    </LinearLayout>
+    <!--<EditText-->
+        <!--android:id="@+id/search_option"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:backgroundTint="#CFD8DC"-->
+        <!--android:drawableRight="@drawable/ic_action_search"-->
+        <!--android:background="@drawable/rounded_edittext"-->
+        <!--android:padding="5dip"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:hint="Search by Company Name"-->
+        <!--/>-->
+
+    <ListView
+        android:id="@+id/accounts_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:divider="@android:color/darker_gray"
+        android:focusable="false"
+        android:dividerHeight="1dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/acc_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0051A1"
+        android:layout_gravity="bottom"
+        android:weightSum="5"
+        android:layout_weight="0"
+        >
+
+        <Button
+            android:id="@+id/prevBtn_Acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:textAllCaps="false"
+            android:backgroundTint="#CBD2D8"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/startingIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/endingIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/totalIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextBtn_Acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:backgroundTint="#CBD2D8"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>
