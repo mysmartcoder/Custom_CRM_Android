@@ -35,7 +35,7 @@
         <!--&gt;-->
 
         <TextView
-            android:text="Login to LeadMaster"
+            android:text="Login to customCRM"
             android:textSize="25sp"
             android:textColor="#fff"
             android:textStyle="bold"
@@ -132,7 +132,7 @@
             android:textColor="#fff"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:text="Copyright &#169; 2016 LeadMaster\nVersion 3.0"/>
+            android:text="Copyright &#169; 2016 customCRM\nVersion 3.0"/>
 
         <!--</LinearLayout>-->
 

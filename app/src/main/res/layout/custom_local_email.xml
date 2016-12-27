@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context="com.leadmaster.SendMail">
+        tools:context="com.customCRM.SendMail">
 
         <ListView
             android:id="@+id/local_email_listview"

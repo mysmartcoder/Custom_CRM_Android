@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LeadMasterCRM</string>
+    <string name="app_name">customCRM</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -44,9 +44,9 @@
 
 
     <string-array name="apiList">
-        <item>https://app.leadmastercrm.com</item>
-        <item>http://dev.leadmastercrm.com</item>
-        <item>http://qa.leadmastercrm.com</item>
+        <item>{Prod_URL}</item>
+        <item>{dev_URL}</item>
+        <item>{QA_URL}</item>
         <item>Other</item>
     </string-array>
 

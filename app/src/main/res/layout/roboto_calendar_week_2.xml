@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer8">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -38,7 +38,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer9">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -62,7 +62,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer10">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -86,7 +86,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer11">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -110,7 +110,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer12">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -134,7 +134,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer13">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"
@@ -158,7 +158,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer14">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="@dimen/dimen_10"

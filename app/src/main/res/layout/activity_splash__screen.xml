@@ -24,7 +24,7 @@
         android:textStyle="bold"
         android:textSize="15sp"
         android:layout_weight="1"
-        android:text="Copyright &#169; 2016 LeadMaster\nVersion 3.0"/>
+        android:text="Copyright &#169; 2016 customCRM\nVersion 3.0"/>
 
 
 

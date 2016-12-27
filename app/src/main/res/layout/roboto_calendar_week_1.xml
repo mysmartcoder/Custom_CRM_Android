@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer1">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="10dp"
@@ -41,7 +41,7 @@
         android:tag="dayOfMonthContainer2">
 
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="5dp"
@@ -67,7 +67,7 @@
         android:tag="dayOfMonthContainer3">
 
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="5dp"
@@ -93,7 +93,7 @@
         android:tag="dayOfMonthContainer4">
 
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="5dp"
@@ -118,7 +118,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer5">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:padding="5dp"
@@ -142,7 +142,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer6">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:tag="dayOfMonthText6"
@@ -166,7 +166,7 @@
         android:orientation="vertical"
         android:tag="dayOfMonthContainer7">
 
-        <com.leadmaster.custom_calendar.DayView
+        <com.customCRM.custom_calendar.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:gravity="center"
             android:tag="dayOfMonthText7"

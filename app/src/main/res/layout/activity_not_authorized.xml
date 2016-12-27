@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.leadmaster.NotAuthorized">
+    tools:context="com.customCRM.NotAuthorized">
 
     <TextView
         android:text="You do not have privileges for this Page..."

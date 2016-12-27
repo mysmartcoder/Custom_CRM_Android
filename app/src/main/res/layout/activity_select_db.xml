@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.leadmaster.SelectDB_Activity">
+    tools:context="com.customCRM.SelectDB_Activity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
             android:textColor="#fff"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:text="Copyright &#169; 2016 LeadMaster\nVersion 3.0"/>
+            android:text="Copyright &#169; 2016 customCRM\nVersion 3.0"/>
 
     <!--</LinearLayout>-->
 

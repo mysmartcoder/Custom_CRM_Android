@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
         android:id="@+id/co_parent"
-        tools:context="com.leadmaster.MainActivity">
+        tools:context="com.customCRM.MainActivity">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"

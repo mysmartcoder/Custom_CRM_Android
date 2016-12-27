@@ -19,7 +19,7 @@
     <TextView
         android:id="@+id/fontsize_display"
         android:textColor="#000"
-        android:text="LeadMasterCRM"
+        android:text="customCRM"
         android:textSize="18sp"
         android:layout_margin="10dp"
         android:gravity="center"

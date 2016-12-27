@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.leadmaster.GroupCalendar_Activity">
+    tools:context="com.customCRM.GroupCalendar_Activity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -163,7 +163,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin">
 
 
-        <com.leadmaster.custom_calendar.CustomCalendarView
+        <com.customCRM.custom_calendar.CustomCalendarView
             android:id="@+id/groupCal_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
